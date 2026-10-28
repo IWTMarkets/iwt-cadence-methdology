@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IWT Cadence Methodology</title>
+<meta name="description" content="Technical note for IWT Cadence: The Luxury Sales Nowcasting Model, from IWT Markets.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root { --red: #8B1A1A; --ink: #2B2B2B; --muted: #6b6b6b; --shade: #EFEBE7; --bg: #ffffff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; line-height: 1.6; }
+  main { max-width: 680px; margin: 0 auto; padding: 64px 20px 48px; }
+  .kicker { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin: 0; }
+  h1 { color: var(--red); font-weight: 800; font-size: clamp(28px, 5vw, 38px); line-height: 1.15; margin: 8px 0 24px; }
+  p { margin: 0 0 16px; }
+  .doc { display: block; margin: 32px 0; padding: 20px 22px; background: var(--shade); border-left: 3px solid var(--red); color: var(--ink); text-decoration: none; }
+  .doc strong { display: block; color: var(--red); font-weight: 600; }
+  .doc span { font-size: 14px; color: var(--muted); }
+  .doc:hover strong { text-decoration: underline; }
+  footer { margin-top: 48px; font-size: 13px; color: var(--muted); }
+  a { color: var(--red); }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">IWT Markets · Methodology</p>
+  <h1>IWT Cadence: The Luxury Sales Nowcasting Model</h1>
+  <p>IWT Cadence is a high-frequency forecast of luxury industry sales growth. It reads a revenue-weighted index of 17 listed houses at half-year frequency and updates every weekday.</p>
+  <p>The model separates what luxury houses sell from what exchange rates do to the sales they report. Demand is modelled at constant currency, anchored in global wealth and Chinese output. Translation is computed from each house's regional mix and daily European Central Bank reference rates. For the current half, a bridge from published quarterly sales supplies a nowcast, weighted against the model by its historical accuracy.</p>
+  <a class="doc" href="technical_annex.pdf">
+    <strong>Technical note (PDF)</strong>
+    <span>Specification, estimates, evaluation, and sources. October 2026.</span>
+  </a>
+  <p>The note accompanies <em>The Shape of Differentiation: Luxury's Third Quarter of 2026</em>, published in FSW.</p>
+  <footer>IWT Markets · It's A Working Title LLC</footer>
+</main>
+</body>
+</html>
